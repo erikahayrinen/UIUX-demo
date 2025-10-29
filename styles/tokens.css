@@ -1,0 +1,29 @@
+/* ============================
+   Design Tokens
+   ============================ */
+
+:root {
+  /* Värit */
+  --color-primary: #00A86B;
+  --color-secondary: #00875A;
+  --color-background: #f4f4f4;
+  --color-text: #333;
+  --color-footer: #e0e0e0; 
+  --color-heading: var(--color-primary);
+  --color-header-text: #ffffff;
+
+  /* Typografia */
+  --font-family-base: 'Arial', sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 24px;
+
+  /* Välistykset */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 32px;
+  --spacing-xlarge: 64px;
+
+  /* Komponentit */
+  --border-radius: 4px;
+  --transition-speed: 0.3s;
+}
